@@ -538,38 +538,38 @@ app:
       inclusionWithoutExclusionNotice: "A folyamat bevonási lista nem működik üres folyamat kizárási listával."
       inclusionWithoutTotalExclusionNotice: "Ha azt szeretné, hogy minden folyamat kizárva legyen, kivéve ezeket, állítsa be a „*” értéket a folyamat kizárási listában."
       processListPlaceholder: "Folyamat nevek/útvonalak, egy sorban, például:"
-      invalidCharactersWarning: ~
+      invalidCharactersWarning: "A folyamatlista érvénytelen karaktereket tartalmaz, amelyeket a rendszer eltávolít: {{invalidCharacters}}"
     userData:
-      title: ~
-      description: ~
-      exportAction: ~
-      importAction: ~
-      appSettings: ~
-      notInArchive: ~
-      mods: ~
-      settings: ~
-      config: ~
-      applyToAll: ~
-      noMods: ~
-      local: ~
-      alreadyInstalled: ~
+      title: "Mentés és visszaállítás"
+      description: "Mentsd el a Windhawk beállításaidat - az alkalmazásnak a beállításait és az modokat a beállításaival és konfigurációikkal - egy fájlba, vagy állítsd vissza belőle."
+      exportAction: "Exportálás..."
+      importAction: "Importálás"
+      appSettings: "Alkalmazásbeállítások"
+      notInArchive: "Nem ebben az archívumban"
+      mods: "Modok"
+      settings: "Beállítások"
+      config: "Konfiguráció"
+      applyToAll: "Alkalmazás az összesre"
+      noMods: "Nincsen beilleszthető mod."
+      local: "Helyi"
+      alreadyInstalled: "Már telepítve - betöltéskor lecseréli a jelenlegi beállításokat és konfigurációkat: a kijelölt részek hozzák az archívum értékeit, a kijelöletlen részek pedig a mod alapértelmezett értékeit használják."
       export:
-        title: ~
-        description: ~
-        exportButton: ~
-        doneButton: ~
-        doneTitle: ~
-        doneSubtitle: ~
-        warningsTitle: ~
-        offlineTitle: ~
-        offlineDescription: ~
+        title: "Felhasználói adat exportálása"
+        description: "Válaszd ki mit tartalmazzon. Minden egyes modhoz a Beállítások az állítható funkciók, a Konfiguráció a ki/bekapcsolt állapot és a Haladó funkciók, például egyedi folyamat kivételek, hibakeresési logolás."
+        exportButton: "Exportálás"
+        doneButton: "Kész"
+        doneTitle: "Exportálás befejezve"
+        doneSubtitle: "A Windhawk felhasználóadataid el lettek mentve a kiválasztott fájlba."
+        warningsTitle: "Valamennyi adat ki lett hagyva"
+        offlineTitle: "Forrás beágyazása offline helyreállításhoz"
+        offlineDescription: "Tartalmazza egyes modok forrását az archívumba, hogy azok internetkapcsolat nélkül is visszaállíthatók legyenek. Ez növeli a fájlméretet. A helyi modok minden esetben beágyazásra kerülnek."
       importSource:
-        description: ~
-        fileOption: ~
-        textOption: ~
-        textPlaceholder: ~
-        browseButton: ~
-        continueButton: ~
+        description: "Válassz ki egy mentésfájlt importáláshoz"
+        fileOption: "Egy mentésfájlból"
+        textOption: "Szövegből"
+        textPlaceholder: "Másold be a tartalmát a mentésfájlnak ide"
+        browseButton: "Böngészés..."
+        continueButton: "Folytatás"
       import:
         title: ~
         trustTitle: ~
